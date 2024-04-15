@@ -11,6 +11,8 @@ const Navbar = () => {
   const handleClick = (title) => {
     if (title === "Contact") {
       window.location.href = 'mailto:r.truong0502@gmail.com'; // Change the email address as needed
+    } else if (title === "Resume") {
+      window.open('https://docs.google.com/document/d/1XylUTYaIdfKNHaIkUBokpVfJOoTJXlnntT9Z5eqQElI/edit?usp=sharing', '_blank'); // Change the link as needed
     } else {
       // Handle other links as needed
     }
